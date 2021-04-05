@@ -17,10 +17,10 @@
 .image {
   display: flex;
   align-items: center;
+  overflow: hidden !important;
 }
 
 .logo__image img {
-  overflow: hidden;
   width: 200px;
   height: 150px;
 }

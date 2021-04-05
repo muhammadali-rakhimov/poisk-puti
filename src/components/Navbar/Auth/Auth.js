@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import { useHistory } from "react-router";
 import auth from "./Auth.module.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,25 +9,35 @@ const Auth = ({ openModal, closeModal, modalIsOpen }) => {
   const [password, setPassword] = useState("");
   // const [userInfo, setUserInfo] = useState("");
 
-  const history = useHistory();
-
   const user = {
     username,
     password,
   };
 
   const formSubmit = (e) => {
+    // if ((username || password) === "") {
+    //   return toast.success("Form must be filled!", {
+    //     position: toast.POSITION.BOTTOM_RIGHT,
+    //   });
+    // }
+
     e.preventDefault();
     closeModal();
-    history.push("/");
+    toast.info("Wait, Loading...", {
+      position: toast.POSITION.BOTTOM_RIGHT,
+      autoClose: 1000,
+    });
     fetch("https://jsonplaceholder.typicode.com/users", {
       method: "POST",
       body: JSON.stringify({ user }),
       headers: { "Content-type": "application/json" },
-    }).then((res) => console.log(res));
-    toast.success("Form Submitted!", {
-      position: toast.POSITION.BOTTOM_RIGHT,
-    });
+    })
+      .then((res) => console.log(res))
+      .then(() =>
+        toast.success("Success!", {
+          position: toast.POSITION.BOTTOM_RIGHT,
+        })
+      );
   };
 
   const customStyles = {
@@ -71,12 +80,14 @@ const Auth = ({ openModal, closeModal, modalIsOpen }) => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            required
           />
           <label className={auth.label}>Parol</label>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
           <input type="submit" value="Submit" />
         </form>

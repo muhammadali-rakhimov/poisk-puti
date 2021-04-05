@@ -74,7 +74,7 @@ const Navbar = () => {
             onClick={openModal}
           >
             <p className={navbar.auth__authorization}>
-              Avtorizatsiya <i class="fas fa-user"></i>
+              Avtorizatsiya <i className="fas fa-user"></i>
             </p>
           </div>
           <div>
@@ -92,7 +92,8 @@ const Navbar = () => {
               value={inputValue}
               name="search"
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Поиск по сайту"
+              placeholder="Sayt bo'yicha qidiruv"
+              required
             />
             <a
               href={`/?search=${inputValue}`}

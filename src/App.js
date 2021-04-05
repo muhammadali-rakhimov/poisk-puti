@@ -19,10 +19,8 @@ function App() {
           temporibus. Tempora, culpa cum officiis reprehenderit pariatur
           delectus assumenda voluptate soluta saepe nam blanditiis, sapiente
           porro nihil maiores esse voluptatem commodi. Iure alias obcaecati
-          repellat. Doloribus labore laborum enim officia exercitationem amet
-          eius placeat ipsam ullam harum cum eveniet velit non eum ipsa adipisci
-          molestias tenetur ab, tempore dolor quis totam! Unde asperiores
-          dolores inventore!
+          repellat. Dolor ab, tempore dolor quis totam! Unde asperiores dolores
+          inventore!
         </p>
         <br />
         <br />

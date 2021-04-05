@@ -1,0 +1,38 @@
+.auth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth button {
+  background-color: red;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.auth__form input {
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.auth__form input:last-child {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.label {
+  font-size: 14px;
+}

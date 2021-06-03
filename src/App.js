@@ -6,6 +6,7 @@ import Benefits from "./components/Benefits/Benefits";
 import Cities from "./components/Cities/Cities";
 import Footer from "./components/Footer/Footer";
 import Province from "./components/Province/Province";
+import Cards from "./components/Cards/Cards";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Jumbotron />
         <Benefits />
+        <Cards />
         <Cities />
         <Province />
         {/* <br /> */}

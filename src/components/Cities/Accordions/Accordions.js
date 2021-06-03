@@ -10,10 +10,10 @@ import "react-accessible-accordion/dist/fancy-example.css";
 
 const Accordions = () => {
   return (
-    <Accordion style={{ overflow: "hidden" }}>
+    <Accordion style={{ overflow: "hidden", margin: "30px", backgroundColor: "#f4f4f4", border: "1px solid #e1e1e1", borderRadius: "10px", padding: "5px" }}>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Город Ташкент</AccordionItemButton>
+          <AccordionItemButton>Qarshi Shaxri</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
@@ -26,7 +26,7 @@ const Accordions = () => {
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Кашкадарьинская область</AccordionItemButton>
+          <AccordionItemButton>Qarshi Tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
@@ -39,131 +39,157 @@ const Accordions = () => {
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Бухарская область</AccordionItemButton>
+          <AccordionItemButton>Shahrisabz shahri</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Джизакская область</AccordionItemButton>
+          <AccordionItemButton>Yakkabog' tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Навоийская область</AccordionItemButton>
+          <AccordionItemButton>Qamashi tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Самаркандская область</AccordionItemButton>
+          <AccordionItemButton>Nishon tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Сурхандарьинская область</AccordionItemButton>
+          <AccordionItemButton>Muborak tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Сырдарьинская область</AccordionItemButton>
+          <AccordionItemButton>Mirishkor tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Ташкентская область</AccordionItemButton>
+          <AccordionItemButton>Koson tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Ферганская область</AccordionItemButton>
+          <AccordionItemButton>Kitob tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Хорезмская область</AccordionItemButton>
+          <AccordionItemButton>Kasbi tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Республика каралпакстан</AccordionItemButton>
+          <AccordionItemButton>G'uzor tumani</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illum
-            in, maxime illo quaerat non ipsa quisquam exercitationem! Dolor
-            officia sint ex corporis explicabo natus impedit ea eius repudiandae
-            laboriosam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+      <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>Dehqonobod tumani</AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+      <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>Chiroqchi tumani</AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quibusdam, id dolores corrupti obcaecati eius aliquam blanditiis
+            incidunt maiores, perferendis iusto sapiente voluptas qui debitis
+            impedit repellendus magnam, eum et.
           </p>
         </AccordionItemPanel>
       </AccordionItem>

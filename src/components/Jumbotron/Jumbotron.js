@@ -23,8 +23,19 @@ const Jumbotron = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        Welcome To Uzbekistan
+        Uzbekistonga xush kelibsiz!
       </p>
+      <div className={jumbotron.arrowDown}>
+        <i
+          class="fas fa-arrow-down"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        ></i>
+      </div>
     </div>
   );
 };

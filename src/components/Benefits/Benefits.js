@@ -69,11 +69,13 @@ const Benefits = () => {
         />
       </div>
       <br />
-      <p className={benefits.getit}>Kiring va Ro'yxatdan o'ting va oling</p>
-      <p className={benefits.getit__description}>
-        ZARURIY SAYT QURILMALARIGA HOZIRDA FOYDALANISH BEPUL!
-      </p>
-      <button className={benefits.avtorizatsiya}>Avtorizatsiya</button>
+      <div className={benefits.auth}>
+        <p className={benefits.getit}>Kiring va Ro'yxatdan o'ting va oling</p>
+        <p className={benefits.getit__description}>
+          ZARURIY SAYT QURILMALARIGA HOZIRDA FOYDALANISH BEPUL!
+        </p>
+        <button className={benefits.avtorizatsiya}>Avtorizatsiya</button>
+      </div>
     </div>
   );
 };

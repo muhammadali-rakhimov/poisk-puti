@@ -1,5 +1,4 @@
 import province from "./Province.module.css";
-import logo from "../../images/uzb.jpg";
 
 const Province = () => {
     return (

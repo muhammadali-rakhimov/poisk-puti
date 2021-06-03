@@ -31,37 +31,37 @@ const Navbar = () => {
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/routes"
             >
-              <li>Маршруты</li>
+              <li>Marshrutlar</li>
             </NavLink>
             <NavLink
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/travelers"
             >
-              <li>Попутчики</li>
+              <li>Sayohatchilar</li>
             </NavLink>
             <NavLink
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/tours"
             >
-              <li>Туры</li>
+              <li>Turlar</li>
             </NavLink>
             <NavLink
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/lessons"
             >
-              <li>Уроки</li>
+              <li>Darslar</li>
             </NavLink>
             <NavLink
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/lodging"
             >
-              <li>Жилье</li>
+              <li>Yashash</li>
             </NavLink>
             <NavLink
               className={`${navbar.link} ${navbar.link__menu}`}
               to="/guide"
             >
-              <li>Путеводитель</li>
+              <li>Qo'llanma</li>
             </NavLink>
           </ul>
         </div>

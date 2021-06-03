@@ -69,6 +69,7 @@ const Benefits = () => {
         />
       </div>
       <br />
+      <br />
       <div className={benefits.auth}>
         <p className={benefits.getit}>Kiring va Ro'yxatdan o'ting va oling</p>
         <p className={benefits.getit__description}>

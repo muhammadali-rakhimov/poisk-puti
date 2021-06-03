@@ -23,10 +23,10 @@ const Jumbotron = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        Uzbekistonga xush kelibsiz!
+        Qashqadaryoga xush kelibsiz!
       </p>
       <div className={jumbotron.arrowDown}>
-        <i
+      <div data-aos="fade-down"><i
           class="fas fa-arrow-down"
           data-aos="fade-down"
           data-aos-delay="300"
@@ -35,6 +35,7 @@ const Jumbotron = () => {
           data-aos-mirror="true"
           data-aos-once="false"
         ></i>
+        </div>
       </div>
     </div>
   );

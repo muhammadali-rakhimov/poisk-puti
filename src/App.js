@@ -7,6 +7,8 @@ import Cities from "./components/Cities/Cities";
 import Footer from "./components/Footer/Footer";
 import Province from "./components/Province/Province";
 import Cards from "./components/Cards/Cards";
+import Guides from "./components/Guides/Guides";
+import Tours from "./components/Tours/Tours";
 
 function App() {
   return (
@@ -16,9 +18,15 @@ function App() {
         <Jumbotron />
         <Benefits />
         <Cards />
+        <Tours />
+        <h2 style={{marginLeft: `100px`, marginBottom: `10px`}}>Qashqadaryo sayohati uchun qo'llanma</h2>
+        <Cards />
         <Cities />
+        <Guides />
         <Province />
-        {/* <br /> */}
+        <br />
+        <br />
+        <br />
         <Footer />
         <Switch>
           <Route path="/routes"></Route>

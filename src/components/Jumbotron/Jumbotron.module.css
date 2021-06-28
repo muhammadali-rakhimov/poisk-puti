@@ -6,12 +6,13 @@
   background:  no-repeat cover -300px fixed;
   background-image: url("../../images/oqsaroy_fon.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   /* background-attachment: fixed; */
-  background-position: 0 -100px;
+  background-position: 0 -50px;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -24,8 +25,6 @@
   user-select: none;
 }
 
-.arrowDown {
-  color: #333;
-  font-size: 30px;
-  cursor: help;
+.search {
+  margin-top: 100px;
 }

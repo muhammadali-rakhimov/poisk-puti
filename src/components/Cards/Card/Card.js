@@ -1,11 +1,11 @@
 import card from "./Card.module.css";
 
-const Card = ({image, title, description}) => {
+const Card = ({image, title, description, id}) => {
     return (
-        <div class={card.card}>
-            <a href="" className={card.a}>
+        <div className={card.card}>
+            <a href={`/card/${id}`} className={card.a}>
                 <img src={image} alt="Avatar" className={card.image} />
-                <div class={card.container}>
+                <div className={card.container}>
                     <h5>
                         <b>{title}</b>
                     </h5>
@@ -16,4 +16,4 @@ const Card = ({image, title, description}) => {
     )
 }
 
-export default Card; 
+export default Card;

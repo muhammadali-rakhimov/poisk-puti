@@ -1,0 +1,12 @@
+.title {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.guides {
+  margin: 20px 100px 70px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

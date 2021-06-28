@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+}
+
+.submit {
+  outline: none;
+  border-radius: 0;
+  border-color: #91B5CD;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.tabPanel1 {
+}
